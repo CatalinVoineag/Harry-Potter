@@ -1,0 +1,73 @@
+@media screen and (min-width: 480px) {
+
+/********************** 
+	ONE COLUMN LAYOUT
+***********************/
+	
+
+	#boxes {
+		margin-left:110px;
+		
+
+	
+	}
+
+
+}
+
+@media screen and (min-width: 660px){
+  
+	#logo {
+		float: left;
+	}
+
+	#boxes {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li {
+			
+			width:235px;
+			height:350px;
+			margin: 4%;
+			background-image: url("box.jpg");
+
+			p {
+				padding: 5%;
+				color: gold;
+			}
+		}
+		img {
+			display: block;
+			margin-left:auto;
+			margin-right: auto;
+		}
+	}
+
+	.harry_bio {
+		height: 100%;
+	}
+	.article p {
+		text-align: left;
+	}
+	.header ul {
+		margin-top:50px;
+	}
+	.footer{
+		background-color: black;
+	}
+	.footer ul {
+		text-align: left;
+		margin-left: 150px;
+
+	}
+	.footer li {
+		padding-top: 5px;
+	}
+	.footer span {
+		border-bottom: 1px solid white;
+	}
+	
+
+  }

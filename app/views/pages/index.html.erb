@@ -1,0 +1,27 @@
+
+<div class="wrapper">
+	<%= render 'layouts/mobile_menu' %>
+
+	<h2>Welcome to the wizarding world!</h2>
+	<h3>If you are a Harry Potter fan, a science fiction fan, or you just want to know a little bit about J.K Rowling's books, you come to the right place.</h3>
+	
+	<div class="box">
+		<ul id="boxes">
+			<li id="first_box"><p class="center"><%= link_to "Harry Potter", harry_path %></p>
+			<p>According to Rowling, Harry is strongly guided by his own conscience</p>
+			<br>
+			<%= link_to (image_tag ('harry.jpg')), harry_path %>
+		</li>
+			<li id="second_box"><p class="center"><%= link_to "Hogwarts", hogwarts_path %></p>
+				<p>Did you know that in the novels Hogwarts is somewhere in Scotland?</p>
+				<br>
+				<%= link_to (image_tag ('hogwarts.jpg')), hogwarts_path %>
+			</li>
+			<li id="last_box"><p class="center"><%= link_to "Voldemort", voldemort_path %></p>
+				<p>The most evil wizard for hundreds and hundreds of years, acording to J.K Rowling</p> <br>
+				<%= link_to (image_tag ('voldemort.jpg')), voldemort_path %>
+			</li>
+		</ul>
+	</div>
+
+</div>

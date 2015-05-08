@@ -1,0 +1,260 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/***************************
+	GENERAL
+***************************/
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('background.jpg');
+  left: 0;
+  margin: 0;
+  padding: 0;
+  
+  position: relative;
+
+}
+
+
+.wrapper {
+	max-width:940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	
+	
+	
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+
+
+/***************************
+	HEADER
+***************************/
+
+.header {
+	float:left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	border-bottom: 1px solid white;
+
+}
+#logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/***************************
+	FOOTER
+***************************/
+
+.footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: black;
+	border-top: 1px solid white;
+	width: 100%;
+	position:relative;
+
+	
+
+
+	a {
+		color:white;
+		text-decoration: none;
+	}
+	ul {
+		color: white;
+		list-style: none;
+
+		span {
+			font-size: 1.5em;
+		} 
+	}
+	p {
+		font-size: 16px;
+		color:white;
+		padding: 0 50px 0 50px;
+		text-align: center;
+	}
+}
+
+
+/***************************
+	NAVIGATION
+***************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+	color: white;
+}
+
+/***************************
+	MOBILE MENU
+***************************/
+
+.menu {
+	background-color: black;
+	left: -285px;
+	height:100%;
+	position: fixed;
+	width:285px;
+
+	ul {
+		border-top: 1px solid white;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		border-bottom: 1px solid white;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 45px;
+		padding-bottom: 3px;
+		padding-left: 20px;
+		padding-top: 3px;
+	} 
+	a {
+		color: #fff;
+		font-size: 15px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
+.icon-close {
+	cursor: pointer;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.icon-menu a {
+	color: white;
+	cursor: pointer;
+	
+}
+
+
+/***************************
+	PAGE:INDEX;
+***************************/
+
+.wrapper h1,h2,h3 {
+	text-align: center;
+}
+
+#boxes {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	cursor: pointer;
+
+	li {
+		float: left;
+		width:235px;
+		height:350px;
+		margin: 4%;
+		background-image: url("box.jpg");
+
+		p {
+			padding: 5%;
+			color: black;
+		}
+	}
+	img {
+		display: block;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	a {
+		text-decoration: none;
+		color: #663D00;
+		font-size: 23px;
+
+	}
+
+}
+.center {
+	text-align: center;
+}
+
+/***************************
+	PAGE:HARRY
+***************************/
+
+#harry_pic {
+	float:right;
+}
+
+.harry_bio {
+	background-image: url('parchment.jpg');
+	max-width: 400px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	p {
+		padding: 5%;
+	}
+	img {
+		padding-top: 15px;
+	}
+}
+.article p {
+	color: #FBB608;
+	text-align: center
+}
+.article img {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+
+
+/***************************
+	COLORS
+***************************/
+
+.header {
+	background-color: black;
+}
+h1,h2,h3{
+	color: #FBB608;
+}
+.article p {
+	color: #FBB608;
+}
+
+#about {
+	background-color: black;
+	height:650px;
+}
